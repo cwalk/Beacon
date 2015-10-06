@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P4I-gV-6Wm">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="FQL-ov-ofI"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="42" id="lbv-pF-nKA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="FQL-ov-ofI"/>
+                                        <exclude reference="lbv-pF-nKA"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="FQL-ov-ofI"/>
+                                        <include reference="lbv-pF-nKA"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zmi-FQ-45a">
+                                <rect key="frame" x="277" y="371" width="46" height="30"/>
+                                <state key="normal" image="BrodcastButton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="50h-jU-YwW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="P4I-gV-6Wm" secondAttribute="centerX" id="6rt-fQ-0XG"/>
+                            <constraint firstAttribute="centerX" secondItem="Zmi-FQ-45a" secondAttribute="centerX" id="MUQ-5g-xsI"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Zmi-FQ-45a" secondAttribute="bottom" constant="75" id="d4y-MZ-NKc"/>
+                            <constraint firstItem="P4I-gV-6Wm" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="50" id="hxO-KW-sYp"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="P4I-gV-6Wm"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="6rt-fQ-0XG"/>
+                                <exclude reference="hxO-KW-sYp"/>
+                                <exclude reference="MUQ-5g-xsI"/>
+                                <exclude reference="d4y-MZ-NKc"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="P4I-gV-6Wm"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="6rt-fQ-0XG"/>
+                                <include reference="hxO-KW-sYp"/>
+                                <include reference="MUQ-5g-xsI"/>
+                                <include reference="d4y-MZ-NKc"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="statusLabel" destination="P4I-gV-6Wm" id="uaJ-I9-PQ7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BrodcastButton" width="150" height="150"/>
+    </resources>
+</document>

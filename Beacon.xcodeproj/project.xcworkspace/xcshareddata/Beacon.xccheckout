@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D89E6163-D260-43F1-BA99-9BF91969E00C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Beacon</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>74FDBC9680A10545B0D52EAFDFBE53AFECB2F94F</key>
+		<string>github.disney.com:WALKC120/Beacon.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Beacon/Beacon.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>74FDBC9680A10545B0D52EAFDFBE53AFECB2F94F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.disney.com:WALKC120/Beacon.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>74FDBC9680A10545B0D52EAFDFBE53AFECB2F94F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>74FDBC9680A10545B0D52EAFDFBE53AFECB2F94F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Beacon</string>
+		</dict>
+	</array>
+</dict>
+</plist>
